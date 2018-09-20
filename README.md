@@ -1,4 +1,2 @@
-# A Fast and Secure Library for verifying and Validating different Alt-Coin Address
+# Zeus - The Ultimate Alt-Coin Detector and Validator
 
-    ## Bitcoin
-    ## Litecoin
