@@ -1,0 +1,30 @@
+{
+  "name": "zeus",
+  "version": "1.0.0",
+  "description": "zeus - the ultimate crypto wallet address detector and validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceeghee/zeus.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "litecoin",
+    "bash",
+    "algorithm",
+    "sha256",
+    "javascript",
+    "node",
+    "altcoin",
+    "doge"
+  ],
+  "author": "Goodluck Ekene <https://github.com.ceeghee>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ceeghee/zeus/issues"
+  },
+  "homepage": "https://github.com/ceeghee/zeus#readme"
+}
