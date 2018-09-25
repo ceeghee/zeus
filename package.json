@@ -21,10 +21,21 @@
     "altcoin",
     "doge"
   ],
-  "author": "Goodluck Ekene <https://github.com.ceeghee>",
+  "author": "Goodluck Ekene <https://github.com/ceeghee>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ceeghee/zeus/issues"
   },
-  "homepage": "https://github.com/ceeghee/zeus#readme"
+  "homepage": "https://github.com/ceeghee/zeus#readme",
+  "dependencies": {
+    "jssha": "1.6.0"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "grunt": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-mocha": "latest",
+    "grunt-simple-mocha": "latest",
+    "mocha": "latest"
+    }
 }
