@@ -27,9 +27,9 @@
     if(isNode) {
         module.exports = cryptoUtils;
     } else {
-        if(typeof window.WAValidator === 'undefined'){
-           window.WAValidator = {__imports: {}};
+        if(typeof window.Zeus === 'undefined'){
+           window.Zeus = {__imports: {}};
         }
-        window.WAValidator.__imports.cryptoUtils = cryptoUtils;
+        window.Zeus.__imports.cryptoUtils = cryptoUtils;
     }
 })(typeof module !== 'undefined' && typeof module.exports !== 'undefined');

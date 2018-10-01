@@ -47,10 +47,10 @@
     if(isNode) {
         module.exports = base58;
     } else {
-        if(typeof window.WAValidator === 'undefined'){
-            window.WAValidator = {__imports: {}};
+        if(typeof window.Zeus === 'undefined'){
+            window.Zeus = {__imports: {}};
         }
-        window.WAValidator.__imports.base58 = base58;
+        window.Zeus.__imports.base58 = base58;
     }
 })(typeof module !== 'undefined' && typeof module.exports !== 'undefined');
 

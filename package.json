@@ -37,5 +37,5 @@
     "grunt-mocha": "latest",
     "grunt-simple-mocha": "latest",
     "mocha": "latest"
-    }
+  }
 }

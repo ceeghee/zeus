@@ -75,9 +75,9 @@
     if(isNode) {
         module.exports = currencies;
     } else {
-        if(typeof window.WAValidator === 'undefined'){
-           window.WAValidator = {__imports: {}};
+        if(typeof window.Zeus === 'undefined'){
+           window.Zeus = {__imports: {}};
         }
-        window.WAValidator.__imports.currencies = currencies;
+        window.Zeus.__imports.currencies = currencies;
     }
 })(typeof module !== 'undefined' && typeof module.exports !== 'undefined');

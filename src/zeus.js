@@ -6,7 +6,7 @@
         cryptoUtils = require('./crypto_utils');
         currencies = require('./currencies');
     } else {
-        var imports = window.WAValidator.__imports;
+        var imports = window.Zeus.__imports;
         base58 = imports.base58;
         cryptoUtils = imports.cryptoUtils;
         currencies = imports.currencies;
@@ -15,7 +15,7 @@
     var DEFAULT_CURRENCY_NAME = 'bitcoin',
         DEFAULT_NETWORK_TYPE = 'prod';
 
-    var WAValidator = {
+    var Zeus = {
         getAddressType: function (address) {
             var decoded;
             try {
@@ -57,10 +57,10 @@
         }
     };
 
-    // export WAValidator module
+    // export Zeus module
     if(isNode) {
-        module.exports = WAValidator;
+        module.exports = Zeus;
     } else {
-        window.WAValidator = WAValidator;
+        window.Zeus = Zeus;
     }
 })(typeof module !== 'undefined' && typeof module.exports !== 'undefined');
